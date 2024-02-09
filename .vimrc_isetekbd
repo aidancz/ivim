@@ -372,3 +372,37 @@
 \
 \],
 \'locations':[10,10,10,10]}
+
+:isetekbd insert {'buttons':[
+\
+\{'keys':[
+\{'title':'↓',
+\ 'type':'special',
+\ 'contents':'down'}
+\],
+\'locations':[1]},
+\
+\{'keys':[
+\{'title':'↑',
+\ 'type':'special',
+\ 'contents':'up'}
+\],
+\'locations':[2]},
+\
+\{'keys':[
+\{'title':'←',
+\ 'type':'special',
+\ 'contents':'left'}
+\],
+\'locations':[3]},
+\
+\{'keys':[
+\{'title':'→',
+\ 'type':'special',
+\ 'contents':'right'}
+\],
+\'locations':[4]},
+\
+\],
+\'locations':[11,11,11,11]}
+

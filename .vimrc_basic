@@ -88,8 +88,8 @@ set foldmethod=marker
 
 
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ map
-nnoremap <expr> zh 'zt' . winheight(0)/4 . '<c-y>'
-nnoremap <expr> zl 'zb' . winheight(0)/4 . '<c-e>'
+"nnoremap <expr> zh 'zt' . winheight(0)/4 . '<c-y>'
+"nnoremap <expr> zl 'zb' . winheight(0)/4 . '<c-e>'
 " https://stackoverflow.com/questions/8059448/scroll-window-halfway-between-zt-and-zz-in-vim
 
 nnoremap Y y$

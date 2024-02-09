@@ -1,0 +1,85 @@
+* hjkl
+* d
+* d + hjkl
+
+the quick brown fox jumps over the lazy dog
+
+verb + noun
+operator + motion
+
+j	linewise
+k	linewise
+h	exclusive
+l	exclusive
+
+* <count>hjkl
+* motions
+
+:h motion.txt
+
+** left-right
+
+<count>h	exclusive
+<count>l	exclusive
+
+0		exclusive
+^		exclusive
+<count>_	linewise
+<count>$	inclusive
+<count>g_	inclusive
+
+<count>|	exclusive
+
+<count>f<char>	inclusive
+<count>f<char>	inclusive
+<count>t<char>	inclusive
+<count>T<char>	inclusive
+<count>;<char>	inclusive
+<count>,<char>	inclusive
+
+g0 g^ gm g$
+
+** up-down
+
+<count>j	linewise
+<count>k	linewise
+<count>-	linewise
+<count>+	linewise
+<count>G	linewise
+<count>gg	linewise
+<count>%	linewise
+:<range>	exclusive
+:<range>go<count>	exclusive
+
+gj gk
+
+** word motion
+
+<count>w	exclusive
+<count>b	exclusive
+<count>e	inclusive
+<count>ge	inclusive
+
+<count>W	exclusive
+<count>B	exclusive
+<count>E	inclusive
+<count>gE	inclusive
+
+** text object motion
+
+<count>(	exclusive
+<count>)	exclusive
+<count>{	exclusive
+<count>}	exclusive
+<count>]]	exclusive
+<count>][	exclusive
+<count>[[	exclusive
+<count>[]	exclusive
+
+* dd D
+
+d_ -> dd
+d$ -> D
+
+* c
+
